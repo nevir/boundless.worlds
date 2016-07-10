@@ -1,0 +1,1315 @@
+{
+   "@collapsed" : false,
+   "@configType" : "WORLD",
+   "@name" : "Kovah",
+   "@position" : [ 7932, 8160 ],
+   "@scroll" : [ 11455.333984375, 9414.201171875, 0 ],
+   "@unlinked" : [],
+   "@version" : 7,
+   "generator" : {
+      "@collapsed" : false,
+      "@name" : "Generator",
+      "@position" : [ 9013, 8207 ],
+      "@toggle-distribution" : true,
+      "@toggle-global" : true,
+      "@toggle-visualise" : true,
+      "@version" : 6,
+      "biomeSize" : 12,
+      "biomes" : [
+         {
+            "@collapsed" : false,
+            "@name" : "Kovah",
+            "@position" : [ 10094, 8347 ],
+            "altitude" : 0.5,
+            "humidity" : 0.5,
+            "part" : {
+               "@collapsed" : false,
+               "@name" : "Kovah",
+               "@position" : [ 11175, 8150 ],
+               "@selector-open" : false,
+               "@toggle-caves" : false,
+               "@toggle-ccaves" : true,
+               "@toggle-csurface" : true,
+               "@toggle-cthreed" : true,
+               "@toggle-data" : false,
+               "@toggle-drop" : false,
+               "@toggle-heightmap" : true,
+               "@toggle-selector" : true,
+               "@toggle-stage" : true,
+               "@toggle-threed" : false,
+               "@toggle-visualise" : false,
+               "@x-name" : "altitude",
+               "@y-name" : "humidity",
+               "caveSurfaceShrink" : {
+                  "enabled" : false,
+                  "value" : 0.0099999997764825821
+               },
+               "caveThresholdBias" : {
+                  "enabled" : false,
+                  "value" : 0
+               },
+               "caves" : null,
+               "caves_decorations" : null,
+               "caves_substrate" : null,
+               "distortion" : null,
+               "distortionStrength" : {
+                  "enabled" : false,
+                  "value" : 0
+               },
+               "drop" : null,
+               "dropMaxDepth" : {
+                  "enabled" : false,
+                  "value" : 0
+               },
+               "dropMaxGradient" : {
+                  "enabled" : false,
+                  "value" : 0
+               },
+               "dropMaxNoGravel" : {
+                  "enabled" : false,
+                  "value" : 0
+               },
+               "heightmap" : null,
+               "heightmapMaxY" : {
+                  "enabled" : false,
+                  "value" : 256
+               },
+               "heightmapMinY" : {
+                  "enabled" : false,
+                  "value" : 0
+               },
+               "parts" : [
+                  {
+                     "distribution" : {
+                        "a" : 0.0040603708475828171,
+                        "ci" : 0,
+                        "rx" : 0.34149044752120972,
+                        "ry" : 2,
+                        "x" : 0.89468425512313843,
+                        "y" : 0.423113614320755
+                     },
+                     "part" : {
+                        "@collapsed" : false,
+                        "@name" : "Mountains",
+                        "@position" : [ 12256, 4743 ],
+                        "@selector-open" : false,
+                        "@toggle-caves" : true,
+                        "@toggle-ccaves" : true,
+                        "@toggle-csurface" : true,
+                        "@toggle-cthreed" : true,
+                        "@toggle-data" : true,
+                        "@toggle-drop" : true,
+                        "@toggle-heightmap" : true,
+                        "@toggle-selector" : true,
+                        "@toggle-stage" : true,
+                        "@toggle-threed" : true,
+                        "@toggle-visualise" : true,
+                        "@x-name" : "x",
+                        "@y-name" : "y",
+                        "caveSurfaceShrink" : {
+                           "enabled" : false,
+                           "value" : 0.0099999997764825821
+                        },
+                        "caveThresholdBias" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "caves" : null,
+                        "caves_decorations" : null,
+                        "caves_substrate" : null,
+                        "distortion" : null,
+                        "distortionStrength" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "drop" : null,
+                        "dropMaxDepth" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "dropMaxGradient" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "dropMaxNoGravel" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "heightmap" : null,
+                        "heightmapMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "heightmapMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "parts" : [],
+                        "shrink" : null,
+                        "strata" : null,
+                        "surface_decorations" : null,
+                        "surface_substrate" : null,
+                        "threeD" : null,
+                        "threeDMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "threeDMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "threeDSurfaceMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "threeDSurfaceMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "threeDThresholdBias" : {
+                           "enabled" : false,
+                           "value" : -1
+                        },
+                        "threed_decorations" : null,
+                        "threed_substrate" : null,
+                        "x" : null,
+                        "y" : null
+                     }
+                  },
+                  {
+                     "distribution" : {
+                        "a" : 0.52971583604812622,
+                        "ci" : 1,
+                        "rx" : 1.2165337800979614,
+                        "ry" : 0.5511813759803772,
+                        "x" : 0.47351887822151184,
+                        "y" : 0.14323242008686066
+                     },
+                     "part" : {
+                        "@collapsed" : false,
+                        "@name" : "Desert",
+                        "@position" : [ 12256, 6028 ],
+                        "@selector-open" : false,
+                        "@toggle-caves" : true,
+                        "@toggle-ccaves" : true,
+                        "@toggle-csurface" : true,
+                        "@toggle-cthreed" : true,
+                        "@toggle-data" : true,
+                        "@toggle-drop" : true,
+                        "@toggle-heightmap" : true,
+                        "@toggle-selector" : true,
+                        "@toggle-stage" : true,
+                        "@toggle-threed" : true,
+                        "@toggle-visualise" : true,
+                        "@x-name" : "x",
+                        "@y-name" : "y",
+                        "caveSurfaceShrink" : {
+                           "enabled" : false,
+                           "value" : 0.0099999997764825821
+                        },
+                        "caveThresholdBias" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "caves" : null,
+                        "caves_decorations" : null,
+                        "caves_substrate" : null,
+                        "distortion" : null,
+                        "distortionStrength" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "drop" : null,
+                        "dropMaxDepth" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "dropMaxGradient" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "dropMaxNoGravel" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "heightmap" : null,
+                        "heightmapMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "heightmapMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "parts" : [],
+                        "shrink" : null,
+                        "strata" : null,
+                        "surface_decorations" : null,
+                        "surface_substrate" : null,
+                        "threeD" : null,
+                        "threeDMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "threeDMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "threeDSurfaceMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "threeDSurfaceMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "threeDThresholdBias" : {
+                           "enabled" : false,
+                           "value" : -1
+                        },
+                        "threed_decorations" : null,
+                        "threed_substrate" : null,
+                        "x" : null,
+                        "y" : null
+                     }
+                  },
+                  {
+                     "distribution" : {
+                        "a" : 0,
+                        "ci" : 2,
+                        "rx" : 1,
+                        "ry" : 1,
+                        "x" : 0.29038900136947632,
+                        "y" : 0.6563606858253479
+                     },
+                     "part" : {
+                        "@collapsed" : false,
+                        "@name" : "Grassland",
+                        "@position" : [ 12256, 7313 ],
+                        "@selector-open" : false,
+                        "@toggle-caves" : true,
+                        "@toggle-ccaves" : true,
+                        "@toggle-csurface" : true,
+                        "@toggle-cthreed" : true,
+                        "@toggle-data" : true,
+                        "@toggle-drop" : true,
+                        "@toggle-heightmap" : true,
+                        "@toggle-selector" : true,
+                        "@toggle-stage" : true,
+                        "@toggle-threed" : true,
+                        "@toggle-visualise" : true,
+                        "@x-name" : "x",
+                        "@y-name" : "y",
+                        "caveSurfaceShrink" : {
+                           "enabled" : false,
+                           "value" : 0.0099999997764825821
+                        },
+                        "caveThresholdBias" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "caves" : null,
+                        "caves_decorations" : null,
+                        "caves_substrate" : null,
+                        "distortion" : null,
+                        "distortionStrength" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "drop" : null,
+                        "dropMaxDepth" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "dropMaxGradient" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "dropMaxNoGravel" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "heightmap" : null,
+                        "heightmapMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "heightmapMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "parts" : [],
+                        "shrink" : null,
+                        "strata" : null,
+                        "surface_decorations" : null,
+                        "surface_substrate" : null,
+                        "threeD" : null,
+                        "threeDMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "threeDMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "threeDSurfaceMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "threeDSurfaceMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "threeDThresholdBias" : {
+                           "enabled" : false,
+                           "value" : -1
+                        },
+                        "threed_decorations" : null,
+                        "threed_substrate" : null,
+                        "x" : null,
+                        "y" : null
+                     }
+                  },
+                  {
+                     "distribution" : {
+                        "a" : -0.0002191886305809021,
+                        "ci" : 4,
+                        "rx" : 0.18031810224056244,
+                        "ry" : 2,
+                        "x" : 0.098069660365581512,
+                        "y" : 0.49581053853034973
+                     },
+                     "part" : {
+                        "@collapsed" : false,
+                        "@name" : "Shallows",
+                        "@position" : [ 12256, 8598 ],
+                        "@selector-open" : false,
+                        "@toggle-caves" : true,
+                        "@toggle-ccaves" : true,
+                        "@toggle-csurface" : true,
+                        "@toggle-cthreed" : true,
+                        "@toggle-data" : true,
+                        "@toggle-drop" : true,
+                        "@toggle-heightmap" : true,
+                        "@toggle-selector" : true,
+                        "@toggle-stage" : true,
+                        "@toggle-threed" : true,
+                        "@toggle-visualise" : false,
+                        "@x-name" : "x",
+                        "@y-name" : "y",
+                        "caveSurfaceShrink" : {
+                           "enabled" : false,
+                           "value" : 0.0099999997764825821
+                        },
+                        "caveThresholdBias" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "caves" : null,
+                        "caves_decorations" : null,
+                        "caves_substrate" : null,
+                        "distortion" : null,
+                        "distortionStrength" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "drop" : null,
+                        "dropMaxDepth" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "dropMaxGradient" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "dropMaxNoGravel" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "heightmap" : null,
+                        "heightmapMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "heightmapMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "parts" : [],
+                        "shrink" : null,
+                        "strata" : null,
+                        "surface_decorations" : null,
+                        "surface_substrate" : null,
+                        "threeD" : null,
+                        "threeDMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "threeDMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "threeDSurfaceMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "threeDSurfaceMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "threeDThresholdBias" : {
+                           "enabled" : false,
+                           "value" : -1
+                        },
+                        "threed_decorations" : null,
+                        "threed_substrate" : null,
+                        "x" : null,
+                        "y" : null
+                     }
+                  },
+                  {
+                     "distribution" : {
+                        "a" : -0.0033067390322685242,
+                        "ci" : 5,
+                        "rx" : 0.26480028033256531,
+                        "ry" : 2,
+                        "x" : 0.051116537302732468,
+                        "y" : 0.47758787870407104
+                     },
+                     "part" : {
+                        "@collapsed" : false,
+                        "@name" : "Ocean",
+                        "@position" : [ 12256, 9789 ],
+                        "@selector-open" : false,
+                        "@toggle-caves" : true,
+                        "@toggle-ccaves" : true,
+                        "@toggle-csurface" : true,
+                        "@toggle-cthreed" : true,
+                        "@toggle-data" : true,
+                        "@toggle-drop" : true,
+                        "@toggle-heightmap" : true,
+                        "@toggle-selector" : true,
+                        "@toggle-stage" : true,
+                        "@toggle-threed" : true,
+                        "@toggle-visualise" : true,
+                        "@x-name" : "x",
+                        "@y-name" : "y",
+                        "caveSurfaceShrink" : {
+                           "enabled" : false,
+                           "value" : 0.0099999997764825821
+                        },
+                        "caveThresholdBias" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "caves" : null,
+                        "caves_decorations" : null,
+                        "caves_substrate" : null,
+                        "distortion" : null,
+                        "distortionStrength" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "drop" : null,
+                        "dropMaxDepth" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "dropMaxGradient" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "dropMaxNoGravel" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "heightmap" : null,
+                        "heightmapMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "heightmapMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "parts" : [],
+                        "shrink" : null,
+                        "strata" : null,
+                        "surface_decorations" : null,
+                        "surface_substrate" : null,
+                        "threeD" : null,
+                        "threeDMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "threeDMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "threeDSurfaceMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "threeDSurfaceMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "threeDThresholdBias" : {
+                           "enabled" : false,
+                           "value" : -1
+                        },
+                        "threed_decorations" : null,
+                        "threed_substrate" : null,
+                        "x" : null,
+                        "y" : null
+                     }
+                  },
+                  {
+                     "distribution" : {
+                        "a" : 0.46138268709182739,
+                        "ci" : 8,
+                        "rx" : 0.83301985263824463,
+                        "ry" : 0.36163198947906494,
+                        "x" : 0.56605792045593262,
+                        "y" : 0.23859700560569763
+                     },
+                     "part" : {
+                        "@collapsed" : false,
+                        "@name" : "Shattered Plains",
+                        "@position" : [ 12256, 11074 ],
+                        "@selector-open" : false,
+                        "@toggle-caves" : true,
+                        "@toggle-ccaves" : true,
+                        "@toggle-csurface" : true,
+                        "@toggle-cthreed" : true,
+                        "@toggle-data" : true,
+                        "@toggle-drop" : true,
+                        "@toggle-heightmap" : true,
+                        "@toggle-selector" : true,
+                        "@toggle-stage" : true,
+                        "@toggle-threed" : true,
+                        "@toggle-visualise" : true,
+                        "@x-name" : "x",
+                        "@y-name" : "y",
+                        "caveSurfaceShrink" : {
+                           "enabled" : false,
+                           "value" : 0.0099999997764825821
+                        },
+                        "caveThresholdBias" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "caves" : null,
+                        "caves_decorations" : null,
+                        "caves_substrate" : null,
+                        "distortion" : null,
+                        "distortionStrength" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "drop" : null,
+                        "dropMaxDepth" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "dropMaxGradient" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "dropMaxNoGravel" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "heightmap" : null,
+                        "heightmapMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "heightmapMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "parts" : [],
+                        "shrink" : null,
+                        "strata" : null,
+                        "surface_decorations" : null,
+                        "surface_substrate" : null,
+                        "threeD" : null,
+                        "threeDMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "threeDMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "threeDSurfaceMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "threeDSurfaceMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "threeDThresholdBias" : {
+                           "enabled" : false,
+                           "value" : -1
+                        },
+                        "threed_decorations" : null,
+                        "threed_substrate" : null,
+                        "x" : null,
+                        "y" : null
+                     }
+                  },
+                  {
+                     "distribution" : {
+                        "a" : 0.34424841403961182,
+                        "ci" : 7,
+                        "rx" : 0.57250791788101196,
+                        "ry" : 0.32173776626586914,
+                        "x" : 0.51127117872238159,
+                        "y" : 0.83923178911209106
+                     },
+                     "part" : {
+                        "@collapsed" : false,
+                        "@name" : "Swamp",
+                        "@position" : [ 12256, 12359 ],
+                        "@selector-open" : false,
+                        "@toggle-caves" : true,
+                        "@toggle-ccaves" : true,
+                        "@toggle-csurface" : true,
+                        "@toggle-cthreed" : true,
+                        "@toggle-data" : true,
+                        "@toggle-drop" : true,
+                        "@toggle-heightmap" : true,
+                        "@toggle-selector" : true,
+                        "@toggle-stage" : true,
+                        "@toggle-threed" : true,
+                        "@toggle-visualise" : true,
+                        "@x-name" : "x",
+                        "@y-name" : "y",
+                        "caveSurfaceShrink" : {
+                           "enabled" : false,
+                           "value" : 0.0099999997764825821
+                        },
+                        "caveThresholdBias" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "caves" : null,
+                        "caves_decorations" : null,
+                        "caves_substrate" : null,
+                        "distortion" : null,
+                        "distortionStrength" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "drop" : null,
+                        "dropMaxDepth" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "dropMaxGradient" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "dropMaxNoGravel" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "heightmap" : null,
+                        "heightmapMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "heightmapMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "parts" : [],
+                        "shrink" : null,
+                        "strata" : null,
+                        "surface_decorations" : null,
+                        "surface_substrate" : null,
+                        "threeD" : null,
+                        "threeDMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "threeDMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "threeDSurfaceMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "threeDSurfaceMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "threeDThresholdBias" : {
+                           "enabled" : false,
+                           "value" : -1
+                        },
+                        "threed_decorations" : null,
+                        "threed_substrate" : null,
+                        "x" : null,
+                        "y" : null
+                     }
+                  },
+                  {
+                     "distribution" : {
+                        "a" : 0.29216167330741882,
+                        "ci" : 11,
+                        "rx" : 0.50936627388000488,
+                        "ry" : 0.95523500442504883,
+                        "x" : 0.36467611789703369,
+                        "y" : 0.69077473878860474
+                     },
+                     "part" : {
+                        "@collapsed" : false,
+                        "@name" : "Forest",
+                        "@position" : [ 12256, 13644 ],
+                        "@selector-open" : false,
+                        "@toggle-caves" : true,
+                        "@toggle-ccaves" : true,
+                        "@toggle-csurface" : true,
+                        "@toggle-cthreed" : true,
+                        "@toggle-data" : true,
+                        "@toggle-drop" : true,
+                        "@toggle-heightmap" : true,
+                        "@toggle-selector" : true,
+                        "@toggle-stage" : true,
+                        "@toggle-threed" : true,
+                        "@toggle-visualise" : true,
+                        "@x-name" : "x",
+                        "@y-name" : "y",
+                        "caveSurfaceShrink" : {
+                           "enabled" : false,
+                           "value" : 0.0099999997764825821
+                        },
+                        "caveThresholdBias" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "caves" : null,
+                        "caves_decorations" : null,
+                        "caves_substrate" : null,
+                        "distortion" : null,
+                        "distortionStrength" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "drop" : null,
+                        "dropMaxDepth" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "dropMaxGradient" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "dropMaxNoGravel" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "heightmap" : null,
+                        "heightmapMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "heightmapMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "parts" : [],
+                        "shrink" : null,
+                        "strata" : null,
+                        "surface_decorations" : null,
+                        "surface_substrate" : null,
+                        "threeD" : null,
+                        "threeDMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "threeDMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "threeDSurfaceMaxY" : {
+                           "enabled" : false,
+                           "value" : 256
+                        },
+                        "threeDSurfaceMinY" : {
+                           "enabled" : false,
+                           "value" : 0
+                        },
+                        "threeDThresholdBias" : {
+                           "enabled" : false,
+                           "value" : -1
+                        },
+                        "threed_decorations" : null,
+                        "threed_substrate" : null,
+                        "x" : null,
+                        "y" : null
+                     }
+                  }
+               ],
+               "shrink" : null,
+               "strata" : null,
+               "surface_decorations" : null,
+               "surface_substrate" : null,
+               "threeD" : null,
+               "threeDMaxY" : {
+                  "enabled" : false,
+                  "value" : 256
+               },
+               "threeDMinY" : {
+                  "enabled" : false,
+                  "value" : 0
+               },
+               "threeDSurfaceMaxY" : {
+                  "enabled" : false,
+                  "value" : 256
+               },
+               "threeDSurfaceMinY" : {
+                  "enabled" : false,
+                  "value" : 0
+               },
+               "threeDThresholdBias" : {
+                  "enabled" : false,
+                  "value" : -1
+               },
+               "threed_decorations" : null,
+               "threed_substrate" : null,
+               "x" : {
+                  "@collapsed" : false,
+                  "@name" : "Altitude (Lerp 2D)",
+                  "@position" : [ 12256, 3030 ],
+                  "base" : {
+                     "@collapsed" : false,
+                     "@name" : "Fractal 2D",
+                     "@position" : [ 12686, 1959 ],
+                     "frequency" : [ 1, 1 ],
+                     "fun" : {
+                        "@collapsed" : false,
+                        "@name" : "Distort 2D",
+                        "@position" : [ 12988, 2088 ],
+                        "base" : {
+                           "@collapsed" : false,
+                           "@name" : "Perlin 2D",
+                           "@position" : [ 13290, 1966 ],
+                           "frequency" : [ 0.15000000596046448, 0.15000000596046448 ],
+                           "offset" : [ -380.83465576171875, -152.83480834960938 ],
+                           "offset-hash" : "QqthmduQJFrICTdP",
+                           "type" : "perlin"
+                        },
+                        "distortion" : {
+                           "@collapsed" : false,
+                           "@name" : "Worley 2D",
+                           "@position" : [ 13290, 2072 ],
+                           "cellCount" : 4,
+                           "cellScale" : 5.3599996566772461,
+                           "components" : [
+                              {
+                                 "k" : 1,
+                                 "multiplier" : -1,
+                                 "power" : 2
+                              }
+                           ],
+                           "frequency" : [ 0.10000000149011612, 0.10000000149011612 ],
+                           "offset" : [ -287.913330078125, -337.38381958007812 ],
+                           "offset-hash" : "YsjoDBYckNRGbaVw",
+                           "type" : "worley"
+                        },
+                        "distortionScale" : [ 1, 1 ],
+                        "frequency" : [ 1, 1 ],
+                        "type" : "distort"
+                     },
+                     "octaves" : [
+                        {
+                           "multiplier" : 0.40000000596046448,
+                           "offset" : [ 78.547340393066406, -391.37796020507812 ],
+                           "offset-hash" : "LPprgsLbGGl5lZxy",
+                           "scale" : 0.19999998807907104
+                        },
+                        {
+                           "multiplier" : 0.45000001788139343,
+                           "offset" : [ -306.81008911132812, -203.36825561523438 ],
+                           "offset-hash" : "vxSyya8cRcOAnVK0",
+                           "scale" : 0.5
+                        },
+                        {
+                           "multiplier" : 0.15000000596046448,
+                           "offset" : [ -377.01382446289062, -47.434276580810547 ],
+                           "offset-hash" : "zZF45IIB5bM6TNlK",
+                           "scale" : 1
+                        }
+                     ],
+                     "type" : "fractal"
+                  },
+                  "basePower" : 0.20000000298023224,
+                  "f1" : {
+                     "@collapsed" : false,
+                     "@name" : "Lerp 2D",
+                     "@position" : [ 12686, 3030 ],
+                     "base" : {
+                        "@collapsed" : false,
+                        "@name" : "Remap 2D",
+                        "@position" : [ 13064, 2471 ],
+                        "clamp" : false,
+                        "clampPower" : 5,
+                        "frequency" : [ 1, 1 ],
+                        "fun" : {
+                           "@collapsed" : false,
+                           "@name" : "Fractal 2D",
+                           "@position" : [ 13367, 2357 ],
+                           "frequency" : [ 1, 1 ],
+                           "fun" : {
+                              "@collapsed" : false,
+                              "@name" : "Perlin 2D",
+                              "@position" : [ 13649, 2503 ],
+                              "frequency" : [ 1, 1 ],
+                              "offset" : [ 225.85183715820312, 85.223289489746094 ],
+                              "offset-hash" : "yysUUyB2o1dEjqQe",
+                              "type" : "perlin"
+                           },
+                           "octaves" : [
+                              {
+                                 "multiplier" : 0.5,
+                                 "offset" : [ 10.272373199462891, -85.258407592773438 ],
+                                 "offset-hash" : "6Z9CfY8UCxIwjcWD",
+                                 "scale" : 0.049999997019767761
+                              },
+                              {
+                                 "multiplier" : 0.40000000596046448,
+                                 "offset" : [ -18.658731460571289, -399.81784057617188 ],
+                                 "offset-hash" : "paVQnoK70BuyJKwk",
+                                 "scale" : 0.099999994039535522
+                              },
+                              {
+                                 "multiplier" : 0.10000000149011612,
+                                 "offset" : [ 392.7611083984375, -110.84504699707031 ],
+                                 "offset-hash" : "kLfxKapSLkPCYpIG",
+                                 "scale" : 1
+                              }
+                           ],
+                           "type" : "fractal"
+                        },
+                        "max" : 0.93700003623962402,
+                        "min" : -1.2660000324249268,
+                        "type" : "remap"
+                     },
+                     "basePower" : 0,
+                     "f1" : {
+                        "@collapsed" : false,
+                        "@name" : "Max 2D",
+                        "@position" : [ 13064, 3165 ],
+                        "frequency" : [ 1, 1 ],
+                        "terms" : [
+                           {
+                              "@collapsed" : false,
+                              "@name" : "Distort 2D",
+                              "@position" : [ 13407, 3109 ],
+                              "base" : {
+                                 "@collapsed" : false,
+                                 "@name" : "Remap 2D",
+                                 "@position" : [ 13741, 2884 ],
+                                 "clamp" : true,
+                                 "clampPower" : 7.1299996376037598,
+                                 "frequency" : [ 1, 1 ],
+                                 "fun" : {
+                                    "@collapsed" : false,
+                                    "@name" : "Remap 2D",
+                                    "@position" : [ 14047, 2884 ],
+                                    "clamp" : true,
+                                    "clampPower" : 5.1999998092651367,
+                                    "frequency" : [ 1, 1 ],
+                                    "fun" : {
+                                       "@collapsed" : false,
+                                       "@name" : "Interpolate 2D",
+                                       "@position" : [ 14353, 2919 ],
+                                       "frequency" : [ 1, 1 ],
+                                       "fun" : {
+                                          "@collapsed" : false,
+                                          "@name" : "Worley 2D",
+                                          "@position" : [ 14659, 2756 ],
+                                          "cellCount" : 2,
+                                          "cellScale" : 2.6599998474121094,
+                                          "components" : [
+                                             {
+                                                "k" : 1,
+                                                "multiplier" : -0.30800002813339233,
+                                                "power" : 3.8730001449584961
+                                             },
+                                             {
+                                                "k" : 0,
+                                                "multiplier" : -1.7710000276565552,
+                                                "power" : 2.9830000400543213
+                                             },
+                                             {
+                                                "k" : 0,
+                                                "multiplier" : -1.4860000610351562,
+                                                "power" : 3.7390000820159912
+                                             }
+                                          ],
+                                          "frequency" : [ 0.25, 0.25 ],
+                                          "offset" : [ 21.112382888793945, 83.670425415039062 ],
+                                          "offset-hash" : "Y45MJytblWDu8Fji",
+                                          "type" : "worley"
+                                       },
+                                       "scale" : 3.7899999618530273,
+                                       "type" : "interpolated"
+                                    },
+                                    "max" : 1.3230000734329224,
+                                    "min" : -2,
+                                    "type" : "remap"
+                                 },
+                                 "max" : 1.3020000457763672,
+                                 "min" : -1.0580000877380371,
+                                 "type" : "remap"
+                              },
+                              "distortion" : {
+                                 "@collapsed" : false,
+                                 "@name" : "Fractal 2D",
+                                 "@position" : [ 13741, 3205 ],
+                                 "frequency" : [ 1, 1 ],
+                                 "fun" : {
+                                    "@collapsed" : false,
+                                    "@name" : "Perlin 2D",
+                                    "@position" : [ 14023, 3351 ],
+                                    "frequency" : [ 1, 1 ],
+                                    "offset" : [ -297.37393188476562, -100.02391815185547 ],
+                                    "offset-hash" : "JZsNelrV25nN9xQB",
+                                    "type" : "perlin"
+                                 },
+                                 "octaves" : [
+                                    {
+                                       "multiplier" : 0.99300003051757812,
+                                       "offset" : [ -161.72732543945312, 84.198402404785156 ],
+                                       "offset-hash" : "kfRuT5FScyODmzOg",
+                                       "scale" : 0.099999994039535522
+                                    },
+                                    {
+                                       "multiplier" : 0.36600002646446228,
+                                       "offset" : [ -380.77362060546875, -291.09426879882812 ],
+                                       "offset-hash" : "27jAeDlRqVzuMqcq",
+                                       "scale" : 0.19999998807907104
+                                    },
+                                    {
+                                       "multiplier" : 0.45800003409385681,
+                                       "offset" : [ 136.2020263671875, -337.18771362304688 ],
+                                       "offset-hash" : "UDNY42D3A7zqwyQY",
+                                       "scale" : 0.5
+                                    }
+                                 ],
+                                 "type" : "fractal"
+                              },
+                              "distortionScale" : [ 2.5, 2.5 ],
+                              "frequency" : [ 1, 1 ],
+                              "type" : "distort"
+                           },
+                           {
+                              "@collapsed" : false,
+                              "@name" : "Constant 2D",
+                              "@position" : [ 13407, 3603 ],
+                              "frequency" : [ 1, 1 ],
+                              "offset" : [ 84.370185852050781, -258.74166870117188 ],
+                              "offset-hash" : "FwRcNi6nD7Wpr3Fo",
+                              "type" : "constant",
+                              "value" : 0
+                           }
+                        ],
+                        "type" : "max"
+                     },
+                     "f2" : {
+                        "@collapsed" : false,
+                        "@name" : "Constant 2D",
+                        "@position" : [ 13064, 3732 ],
+                        "frequency" : [ 1, 1 ],
+                        "offset" : [ 37.335773468017578, -318.04000854492188 ],
+                        "offset-hash" : "jXpacEp1e2YuhaNL",
+                        "type" : "constant",
+                        "value" : 0
+                     },
+                     "frequency" : [ 1, 1 ],
+                     "type" : "lerp"
+                  },
+                  "f2" : {
+                     "@collapsed" : false,
+                     "@name" : "Remap 2D",
+                     "@position" : [ 12686, 3975 ],
+                     "clamp" : false,
+                     "clampPower" : 5,
+                     "frequency" : [ 1, 1 ],
+                     "fun" : {
+                        "@collapsed" : false,
+                        "@name" : "Fractal 2D",
+                        "@position" : [ 12989, 3861 ],
+                        "frequency" : [ 1, 1 ],
+                        "fun" : {
+                           "@collapsed" : false,
+                           "@name" : "Perlin 2D",
+                           "@position" : [ 13271, 4007 ],
+                           "frequency" : [ 0.37600001692771912, 0.37600001692771912 ],
+                           "offset" : [ -144.29541015625, -299.499755859375 ],
+                           "offset-hash" : "9NnSvde3RHMY9vgC",
+                           "type" : "perlin"
+                        },
+                        "octaves" : [
+                           {
+                              "multiplier" : 0.5,
+                              "offset" : [ 296.4705810546875, -132.93496704101562 ],
+                              "offset-hash" : "UNTXJl4IKqXhu91s",
+                              "scale" : 0.049999997019767761
+                           },
+                           {
+                              "multiplier" : 0.40000000596046448,
+                              "offset" : [ 182.14999389648438, 166.37046813964844 ],
+                              "offset-hash" : "sSdYi2YrfC3xQjHV",
+                              "scale" : 0.099999994039535522
+                           },
+                           {
+                              "multiplier" : 0.10000000149011612,
+                              "offset" : [ 102.21713256835938, -312.49948120117188 ],
+                              "offset-hash" : "rENViPBtiPfv4faL",
+                              "scale" : 0.5
+                           }
+                        ],
+                        "type" : "fractal"
+                     },
+                     "max" : 0.19100001454353333,
+                     "min" : -1.752000093460083,
+                     "type" : "remap"
+                  },
+                  "frequency" : [ 1, 1 ],
+                  "type" : "lerp"
+               },
+               "y" : {
+                  "@collapsed" : false,
+                  "@name" : "Humidity (Fractal 2D)",
+                  "@position" : [ 12256, 4259 ],
+                  "frequency" : [ 1, 1 ],
+                  "fun" : {
+                     "@collapsed" : false,
+                     "@name" : "Distort 2D",
+                     "@position" : [ 12558, 4431 ],
+                     "base" : {
+                        "@collapsed" : false,
+                        "@name" : "Perlin 2D",
+                        "@position" : [ 12860, 4309 ],
+                        "frequency" : [ 0.10000000149011612, 0.10000000149011612 ],
+                        "offset" : [ -294.81039428710938, 300.58831787109375 ],
+                        "offset-hash" : "Civ6zT8f55fOGq5p",
+                        "type" : "perlin"
+                     },
+                     "distortion" : {
+                        "@collapsed" : false,
+                        "@name" : "Worley 2D",
+                        "@position" : [ 12860, 4415 ],
+                        "cellCount" : 4,
+                        "cellScale" : 3,
+                        "components" : [
+                           {
+                              "k" : 1,
+                              "multiplier" : -1,
+                              "power" : 2
+                           }
+                        ],
+                        "frequency" : [ 0.075000002980232239, 0.075000002980232239 ],
+                        "offset" : [ -0.72632944583892822, 182.12178039550781 ],
+                        "offset-hash" : "bMIhMCHKlYiMxemT",
+                        "type" : "worley"
+                     },
+                     "distortionScale" : [ 1, 1 ],
+                     "frequency" : [ 1, 1 ],
+                     "type" : "distort"
+                  },
+                  "octaves" : [
+                     {
+                        "multiplier" : 0.5,
+                        "offset" : [ -378.68618774414062, -289.20880126953125 ],
+                        "offset-hash" : "ow55bZANohvrZLvY",
+                        "scale" : 0.19999998807907104
+                     },
+                     {
+                        "multiplier" : 0.30000001192092896,
+                        "offset" : [ -311.7784423828125, 222.2330322265625 ],
+                        "offset-hash" : "NKaoszzc7HRcR2hA",
+                        "scale" : 0.5
+                     },
+                     {
+                        "multiplier" : 0.10000000149011612,
+                        "offset" : [ -346.14175415039062, 15.843077659606934 ],
+                        "offset-hash" : "xt05fyuBQPdLiy4X",
+                        "scale" : 1
+                     },
+                     {
+                        "multiplier" : 0.10000000149011612,
+                        "offset" : [ 4.8035402297973633, 155.24562072753906 ],
+                        "offset-hash" : "4Ifv6Kx04hBcaxFj",
+                        "scale" : 2
+                     }
+                  ],
+                  "type" : "fractal"
+               }
+            },
+            "temperature" : 0.5,
+            "vegetation" : 0.5,
+            "weight" : 0.5
+         }
+      ],
+      "caves" : null,
+      "distortion" : null,
+      "distribution" : {
+         "altitude" : null,
+         "humidity" : null,
+         "temperature" : null,
+         "vegetation" : null
+      },
+      "drop" : null,
+      "lowerSea" : {
+         "level" : 16,
+         "liquidType" : "LAVA"
+      },
+      "sea" : {
+         "level" : 64,
+         "liquidType" : "WATER"
+      },
+      "shrink" : null
+   },
+   "seed" : "Full of Havok",
+   "sharedConfig" : {
+      "blockColors" : {
+         "ASH_DEFAULT_BASE" : 1,
+         "CRYSTAL_GLEAM_BASE" : 13,
+         "GRASS_BARBED_BASE" : 8,
+         "GRASS_GNARLED_BASE" : 7,
+         "GRASS_VERDANT_BASE" : 9,
+         "GRAVEL_DEFAULT_BASE" : 16,
+         "GROWTH_DEFAULT_BASE" : 1,
+         "MOULD_DEFAULT_BASE" : 1,
+         "MUD_DEFAULT_BASE" : 1,
+         "ROCK_IGNEOUS_BASE" : 4,
+         "ROCK_METAMORPHIC_BASE" : 5,
+         "ROCK_SEDIMENTARY_BASE" : 6,
+         "SAND_DEFAULT_BASE" : 16,
+         "SOIL_CLAY_BASE" : 1,
+         "SOIL_PEATY_BASE" : 3,
+         "SOIL_SILTY_BASE" : 2,
+         "SPONGE_DEFAULT_BASE" : 1,
+         "TANGLE_DEFAULT_BASE" : 1,
+         "THORNS_DEFAULT_BASE" : 1,
+         "WOOD_ANCIENT_TRUNK" : 10,
+         "WOOD_EXOTIC_LEAVES" : 15,
+         "WOOD_LUSH_LEAVES" : 13,
+         "WOOD_LUSTROUS_TRUNK" : 1,
+         "WOOD_TWISTED_TRUNK" : 11,
+         "WOOD_WAXY_LEAVES" : 14
+      },
+      "resourceCategory" : "test_category",
+      "worldRank" : 4,
+      "worldSize" : 576
+   }
+}
