@@ -3,8 +3,244 @@
    "@configType" : "WORLD",
    "@name" : "Novur",
    "@position" : [ 7932, 8160 ],
-   "@scroll" : [ 11529.443359375, 9372.4130859375, 8.5681676864624023e-08 ],
-   "@unlinked" : [],
+   "@scroll" : [ 11030.005859375, 9685.2763671875, 0.25 ],
+   "@unlinked" : [
+      {
+         "data" : {
+            "@collapsed" : false,
+            "@name" : "Underground Enterance",
+            "@position" : [ 11567, 9126 ],
+            "@selector-open" : false,
+            "@toggle-caves" : true,
+            "@toggle-ccaves" : true,
+            "@toggle-csurface" : true,
+            "@toggle-cthreed" : true,
+            "@toggle-data" : true,
+            "@toggle-drop" : true,
+            "@toggle-heightmap" : true,
+            "@toggle-selector" : true,
+            "@toggle-stage" : true,
+            "@toggle-threed" : true,
+            "@toggle-visualise" : true,
+            "@x-name" : "x",
+            "@y-name" : "y",
+            "caveSurfaceShrink" : {
+               "enabled" : false,
+               "value" : 1
+            },
+            "caveThresholdBias" : {
+               "enabled" : false,
+               "value" : 0
+            },
+            "caves" : null,
+            "caves_decorations" : null,
+            "caves_substrate" : null,
+            "distortion" : null,
+            "distortionStrength" : {
+               "enabled" : false,
+               "value" : 0
+            },
+            "drop" : null,
+            "dropMaxDepth" : {
+               "enabled" : false,
+               "value" : 0
+            },
+            "dropMaxGradient" : {
+               "enabled" : false,
+               "value" : 0
+            },
+            "dropMaxNoGravel" : {
+               "enabled" : false,
+               "value" : 0
+            },
+            "heightmap" : {
+               "@collapsed" : false,
+               "@name" : "Constant 2D",
+               "@position" : [ 11922, 9227 ],
+               "frequency" : [ 1, 1 ],
+               "offset" : [ -84.541084289550781, 243.13156127929688 ],
+               "offset-hash" : "sPRdsEljiAS5d9AT",
+               "type" : "constant",
+               "value" : 0
+            },
+            "heightmapMaxY" : {
+               "enabled" : true,
+               "value" : 200
+            },
+            "heightmapMinY" : {
+               "enabled" : true,
+               "value" : 200
+            },
+            "parts" : [],
+            "shrink" : null,
+            "strata" : null,
+            "surface_decorations" : {
+               "@collapsed" : false,
+               "@name" : "Standard Decorations",
+               "@position" : [ 12332, 9177 ],
+               "@toggle-ceiling" : false,
+               "@toggle-floor" : true,
+               "ceiling" : [],
+               "floor" : [
+                  {
+                     "clearance" : 0,
+                     "constraintType" : [ "ASH_DEFAULT_BASE" ],
+                     "density" : -0.62000000476837158,
+                     "depth" : -32,
+                     "instance" : {
+                        "@collapsed" : false,
+                        "@name" : "Prefab",
+                        "@position" : [ 12877, 9101 ],
+                        "gatherRadius" : 0.0099999997764825821,
+                        "itemSet" : "0",
+                        "prefabs" : [
+                           {
+                              "blockMeta" : "AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/",
+                              "blockTypes" : "AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAB4mwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD0/z8BAADc/z8BAAAImwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAAV/z8BAADc/z8BAADc/z8BAAAImwkAAADS/z8BAADc/z8BAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AABh/z8BAADc/z8BAADc/z8BAAAImwkAAADS/z8BAADc/z8BAADc/z8BAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AACj/z8BAADc/z8BAADN/z8gAADDmwkUAADS/z8BAADc/z8BAADc/z8BAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AABbmwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAADS/z8BAAAImwkAAADS/z8BAAAImwkAAADJmwlpAABp/z8dAAAA/z8AAADJmwkUAADS/z8BAAAImwkAAADS/z8BAAAImwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAADdmwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAAl/z8BAADc/z8BAADc/z8BAABemwmJAADS/z8BAADc/z8BAADc/z8BAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AACC/z8BAADc/z8CAADb/z8BAAAImwkAAADS/z8BAADc/z8BAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AABA/z8BAADc/z8BAAAImwkAAADS/z8BAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAAJmwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AADemwkAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/",
+                              "extents" : [ 32, 223, 32 ],
+                              "name" : "prefab",
+                              "nonAirCount" : 481,
+                              "origin" : [ 0, 2, 0 ]
+                           }
+                        ],
+                        "rotateable" : true,
+                        "type" : "prefab"
+                     },
+                     "maxGradient" : 5,
+                     "maxSize" : 1,
+                     "maxY" : 256,
+                     "minGradient" : 0,
+                     "minSize" : 0,
+                     "minY" : 0,
+                     "noise" : {
+                        "@collapsed" : false,
+                        "@name" : "Constant 2D",
+                        "@position" : [ 12633, 9525 ],
+                        "frequency" : [ 1, 1 ],
+                        "offset" : [ -63.617912292480469, 284.2874755859375 ],
+                        "offset-hash" : "RvJcE3XaTTFbLa1p",
+                        "type" : "constant",
+                        "value" : -1
+                     },
+                     "placementType" : "FLORA_FLOWER_1",
+                     "sizeNoise" : null,
+                     "smooth" : false,
+                     "threshold" : 1
+                  }
+               ],
+               "type" : "standard"
+            },
+            "surface_substrate" : {
+               "@collapsed" : false,
+               "@name" : "Standard Substrate",
+               "@position" : [ 11989, 9526 ],
+               "strates" : [
+                  {
+                     "averageDepth" : 6,
+                     "blockType" : "ASH_DEFAULT_BASE",
+                     "depthNoise" : null,
+                     "depthNoiseScale" : 0,
+                     "maxGradient" : 5,
+                     "maxY" : 256,
+                     "metadata" : {
+                        "@toggle-metadata" : true,
+                        "maxGradient" : 5,
+                        "maxThreshold" : 1,
+                        "maxY" : 256,
+                        "minGradient" : 0,
+                        "minThreshold" : -1,
+                        "minY" : 0,
+                        "noise" : null
+                     },
+                     "minGradient" : 0,
+                     "minY" : 0
+                  }
+               ],
+               "type" : "standard"
+            },
+            "threeD" : null,
+            "threeDMaxY" : {
+               "enabled" : false,
+               "value" : 256
+            },
+            "threeDMinY" : {
+               "enabled" : false,
+               "value" : 0
+            },
+            "threeDSurfaceMaxY" : {
+               "enabled" : false,
+               "value" : 256
+            },
+            "threeDSurfaceMinY" : {
+               "enabled" : false,
+               "value" : 0
+            },
+            "threeDThresholdBias" : {
+               "enabled" : false,
+               "value" : -1
+            },
+            "threed_decorations" : null,
+            "threed_substrate" : null,
+            "x" : null,
+            "y" : null
+         },
+         "nodeType" : "LT:BIOME_PART"
+      },
+      {
+         "data" : {
+            "@collapsed" : false,
+            "@name" : "Remap 2D",
+            "@position" : [ 11178, 7524 ],
+            "clamp" : false,
+            "clampPower" : 5,
+            "frequency" : [ 1, 1 ],
+            "fun" : {
+               "@collapsed" : false,
+               "@name" : "Remap 2D",
+               "@position" : [ 11472, 7524 ],
+               "clamp" : false,
+               "clampPower" : 5,
+               "frequency" : [ 1, 1 ],
+               "fun" : {
+                  "@collapsed" : false,
+                  "@name" : "Remap 2D",
+                  "@position" : [ 11766, 7524 ],
+                  "clamp" : false,
+                  "clampPower" : 5,
+                  "frequency" : [ 1, 1 ],
+                  "fun" : {
+                     "@collapsed" : false,
+                     "@name" : "Worley 2D",
+                     "@position" : [ 12060, 7470 ],
+                     "cellCount" : 1,
+                     "cellScale" : 20,
+                     "components" : [
+                        {
+                           "k" : 0,
+                           "multiplier" : -0.86200004816055298,
+                           "power" : 2.1340000629425049
+                        }
+                     ],
+                     "frequency" : [ 0.10000000149011612, 0.10000000149011612 ],
+                     "offset" : [ -335.7900390625, 158.9466552734375 ],
+                     "offset-hash" : "ZzdRaJvs6QHI7s8L",
+                     "type" : "worley"
+                  },
+                  "max" : 0.34300002455711365,
+                  "min" : -2,
+                  "type" : "remap"
+               },
+               "max" : 2,
+               "min" : -2,
+               "type" : "remap"
+            },
+            "max" : 2,
+            "min" : -2,
+            "type" : "remap"
+         },
+         "nodeType" : "LT:NOISE_2D"
+      }
+   ],
    "@version" : 8,
    "generator" : {
       "@collapsed" : false,
@@ -434,17 +670,17 @@
                            },
                            {
                               "distribution" : {
-                                 "a" : 1.5631566047668457,
-                                 "ci" : 1,
+                                 "a" : 1.5741924047470093,
+                                 "ci" : 2,
                                  "rx" : 2,
-                                 "ry" : 0.16771979629993439,
-                                 "x" : 0.97111004590988159,
-                                 "y" : 0.48678547143936157
+                                 "ry" : 0.17674784362316132,
+                                 "x" : 0.94772297143936157,
+                                 "y" : 0.48459634184837341
                               },
                               "part" : {
                                  "@collapsed" : false,
-                                 "@name" : "Underground Enterance",
-                                 "@position" : [ 11178, 9033 ],
+                                 "@name" : "Unnamed Biome Part",
+                                 "@position" : [ 10614, 8973 ],
                                  "@selector-open" : false,
                                  "@toggle-caves" : true,
                                  "@toggle-ccaves" : true,
@@ -460,14 +696,22 @@
                                  "@x-name" : "x",
                                  "@y-name" : "y",
                                  "caveSurfaceShrink" : {
-                                    "enabled" : false,
-                                    "value" : 0.0099999997764825821
+                                    "enabled" : true,
+                                    "value" : 4
                                  },
                                  "caveThresholdBias" : {
-                                    "enabled" : false,
-                                    "value" : 0
+                                    "enabled" : true,
+                                    "value" : 1
                                  },
-                                 "caves" : null,
+                                 "caves" : {
+                                    "@collapsed" : false,
+                                    "@name" : "Perlin 3D",
+                                    "@position" : [ 11000, 9187 ],
+                                    "frequency" : [ 2, 2, 2 ],
+                                    "offset" : [ -142.96481323242188, -174.22093200683594, -278.32028198242188 ],
+                                    "offset-hash" : "g9AIHmLrnJsjS6sf",
+                                    "type" : "perlin"
+                                 },
                                  "caves_decorations" : null,
                                  "caves_substrate" : null,
                                  "distortion" : null,
@@ -491,12 +735,12 @@
                                  "heightmap" : {
                                     "@collapsed" : false,
                                     "@name" : "Constant 2D",
-                                    "@position" : [ 11533, 9134 ],
+                                    "@position" : [ 10919, 9025 ],
                                     "frequency" : [ 1, 1 ],
-                                    "offset" : [ -84.541084289550781, 243.13156127929688 ],
-                                    "offset-hash" : "sPRdsEljiAS5d9AT",
+                                    "offset" : [ -66.218048095703125, -271.59243774414062 ],
+                                    "offset-hash" : "Zg7XbWjvnVWt7PAh",
                                     "type" : "constant",
-                                    "value" : -0.20400001108646393
+                                    "value" : 0.2800000011920929
                                  },
                                  "heightmapMaxY" : {
                                     "enabled" : true,
@@ -509,63 +753,17 @@
                                  "parts" : [],
                                  "shrink" : null,
                                  "strata" : null,
-                                 "surface_decorations" : {
-                                    "@collapsed" : false,
-                                    "@name" : "Standard Decorations",
-                                    "@position" : [ 11882, 9082 ],
-                                    "@toggle-ceiling" : false,
-                                    "@toggle-floor" : true,
-                                    "ceiling" : [],
-                                    "floor" : [
-                                       {
-                                          "clearance" : 0,
-                                          "constraintType" : [ "ASH_DEFAULT_BASE" ],
-                                          "density" : 1,
-                                          "depth" : 0,
-                                          "instance" : {
-                                             "@collapsed" : false,
-                                             "@name" : "Prefab",
-                                             "@position" : [ 12295, 9181 ],
-                                             "gatherRadius" : 0.20000000298023224,
-                                             "itemSet" : "0",
-                                             "prefabs" : [],
-                                             "rotateable" : true,
-                                             "type" : "prefab"
-                                          },
-                                          "maxGradient" : 5,
-                                          "maxSize" : 0.5,
-                                          "maxY" : 256,
-                                          "minGradient" : 0,
-                                          "minSize" : 0.5,
-                                          "minY" : 0,
-                                          "noise" : {
-                                             "@collapsed" : false,
-                                             "@name" : "Constant 2D",
-                                             "@position" : [ 12183, 9430 ],
-                                             "frequency" : [ 1, 1 ],
-                                             "offset" : [ -63.617912292480469, 284.2874755859375 ],
-                                             "offset-hash" : "RvJcE3XaTTFbLa1p",
-                                             "type" : "constant",
-                                             "value" : -1
-                                          },
-                                          "placementType" : "FLORA_FLOWER_1",
-                                          "sizeNoise" : null,
-                                          "smooth" : false,
-                                          "threshold" : 1
-                                       }
-                                    ],
-                                    "type" : "standard"
-                                 },
+                                 "surface_decorations" : null,
                                  "surface_substrate" : {
                                     "@collapsed" : false,
                                     "@name" : "Standard Substrate",
-                                    "@position" : [ 11600, 9433 ],
+                                    "@position" : [ 10949, 9570 ],
                                     "strates" : [
                                        {
-                                          "averageDepth" : 6,
-                                          "blockType" : "ASH_DEFAULT_BASE",
+                                          "averageDepth" : 32,
+                                          "blockType" : "GRASS_VERDANT_BASE/SOIL_PEATY_BASE",
                                           "depthNoise" : null,
-                                          "depthNoiseScale" : 0,
+                                          "depthNoiseScale" : 3,
                                           "maxGradient" : 5,
                                           "maxY" : 256,
                                           "metadata" : {
@@ -641,54 +839,21 @@
                         "threed_substrate" : null,
                         "x" : {
                            "@collapsed" : false,
-                           "@name" : "Remap 2D",
-                           "@position" : [ 11178, 7524 ],
-                           "clamp" : false,
-                           "clampPower" : 5,
-                           "frequency" : [ 1, 1 ],
-                           "fun" : {
-                              "@collapsed" : false,
-                              "@name" : "Remap 2D",
-                              "@position" : [ 11472, 7524 ],
-                              "clamp" : false,
-                              "clampPower" : 5,
-                              "frequency" : [ 1, 1 ],
-                              "fun" : {
-                                 "@collapsed" : false,
-                                 "@name" : "Remap 2D",
-                                 "@position" : [ 11766, 7524 ],
-                                 "clamp" : false,
-                                 "clampPower" : 5,
-                                 "frequency" : [ 1, 1 ],
-                                 "fun" : {
-                                    "@collapsed" : false,
-                                    "@name" : "Worley 2D",
-                                    "@position" : [ 12060, 7470 ],
-                                    "cellCount" : 1,
-                                    "cellScale" : 20,
-                                    "components" : [
-                                       {
-                                          "k" : 0,
-                                          "multiplier" : -0.86200004816055298,
-                                          "power" : 2.1340000629425049
-                                       }
-                                    ],
-                                    "frequency" : [ 0.10000000149011612, 0.10000000149011612 ],
-                                    "offset" : [ -335.7900390625, 158.9466552734375 ],
-                                    "offset-hash" : "ZzdRaJvs6QHI7s8L",
-                                    "type" : "worley"
-                                 },
-                                 "max" : 0.34300002455711365,
-                                 "min" : -2,
-                                 "type" : "remap"
-                              },
-                              "max" : 2,
-                              "min" : -2,
-                              "type" : "remap"
-                           },
-                           "max" : 2,
-                           "min" : -2,
-                           "type" : "remap"
+                           "@name" : "Worley 2D",
+                           "@position" : [ 10962, 8413 ],
+                           "cellCount" : 1,
+                           "cellScale" : 20,
+                           "components" : [
+                              {
+                                 "k" : 0,
+                                 "multiplier" : -1,
+                                 "power" : 1.0250000953674316
+                              }
+                           ],
+                           "frequency" : [ 0.040000002831220627, 0.040000002831220627 ],
+                           "offset" : [ 44.733348846435547, -396.13558959960938 ],
+                           "offset-hash" : "JNLwTvTe6vmh015",
+                           "type" : "worley"
                         },
                         "y" : null
                      }
