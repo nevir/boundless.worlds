@@ -1,0 +1,1671 @@
+{
+   "@collapsed" : false,
+   "@configType" : "BIOME",
+   "@name" : "RiverRoads",
+   "@position" : [ 7932, 8160 ],
+   "@scroll" : [ 8413.2734375, 8255.263671875, -0.1187499612569809 ],
+   "@toggle-test" : false,
+   "@toggle-world" : false,
+   "@unlinked" : [],
+   "@version" : 11,
+   "biome" : {
+      "fun" : {
+         "@collapsed" : false,
+         "@name" : "RiverRoads",
+         "@position" : [ 8299, 8089 ],
+         "altitude" : {
+            "enabled" : true,
+            "value" : 0.5
+         },
+         "humidity" : {
+            "enabled" : true,
+            "value" : 0.5
+         },
+         "nameStyle" : "Catena {}",
+         "part" : {
+            "@collapsed" : false,
+            "@name" : "Unnamed Biome Part",
+            "@position" : [ 8662, 7551 ],
+            "@selector-open" : false,
+            "@toggle-caves" : true,
+            "@toggle-ccaves" : true,
+            "@toggle-csurface" : true,
+            "@toggle-cthreed" : true,
+            "@toggle-data" : true,
+            "@toggle-drop" : true,
+            "@toggle-heightmap" : true,
+            "@toggle-selector" : true,
+            "@toggle-stage" : true,
+            "@toggle-threed" : true,
+            "@toggle-visualise" : true,
+            "@x-name" : "x",
+            "@y-name" : "y",
+            "caveSurfaceShrink" : {
+               "enabled" : true,
+               "value" : 2
+            },
+            "caveThresholdBias" : {
+               "enabled" : true,
+               "value" : 0.76999998092651367
+            },
+            "caves" : {
+               "@collapsed" : false,
+               "@name" : "Layered 3D",
+               "@position" : [ 9023, 8462 ],
+               "components" : [
+                  {
+                     "fun" : {
+                        "@collapsed" : false,
+                        "@name" : "Constant 3D",
+                        "@position" : [ 9330, 8364 ],
+                        "frequency" : [ 1, 1, 1 ],
+                        "offset" : [ 219.22331237792969, 215.04583740234375, -163.77137756347656 ],
+                        "offset-hash" : "qHZtBWJnw9A0SqrK",
+                        "type" : "constant",
+                        "value" : 1
+                     },
+                     "y" : 0
+                  },
+                  {
+                     "fun" : {
+                        "@collapsed" : false,
+                        "@name" : "2D to fixed-y 3D",
+                        "@position" : [ 9330, 8607 ],
+                        "frequency" : [ 1, 1, 1 ],
+                        "fun" : {
+                           "@collapsed" : false,
+                           "@name" : "RiverRoads Rivers",
+                           "@position" : [ 9626, 8541 ],
+                           "frequency" : [ 1, 1 ],
+                           "links" : [
+                              {
+                                 "linkPath" : [
+                                    {
+                                       "index" : -1,
+                                       "name" : "noise2d"
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "fun"
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "links"
+                                    },
+                                    {
+                                       "index" : 1,
+                                       "name" : ""
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "sliderValue"
+                                    }
+                                 ],
+                                 "linkType" : "LT:CUSTOM_SLIDER",
+                                 "sliderValue" : -1.6680001020431519
+                              },
+                              {
+                                 "linkPath" : [
+                                    {
+                                       "index" : -1,
+                                       "name" : "noise2d"
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "fun"
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "links"
+                                    },
+                                    {
+                                       "index" : 2,
+                                       "name" : ""
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "sliderValue"
+                                    }
+                                 ],
+                                 "linkType" : "LT:CUSTOM_SLIDER",
+                                 "sliderValue" : 0.090000003576278687
+                              },
+                              {
+                                 "linkPath" : [
+                                    {
+                                       "index" : -1,
+                                       "name" : "noise2d"
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "fun"
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "links"
+                                    },
+                                    {
+                                       "index" : 3,
+                                       "name" : ""
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "sliderValue"
+                                    }
+                                 ],
+                                 "linkType" : "LT:CUSTOM_SLIDER",
+                                 "sliderValue" : 0
+                              },
+                              {
+                                 "linkPath" : [
+                                    {
+                                       "index" : -1,
+                                       "name" : "noise2d"
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "fun"
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "links"
+                                    },
+                                    {
+                                       "index" : 4,
+                                       "name" : ""
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "sliderValue"
+                                    }
+                                 ],
+                                 "linkType" : "LT:CUSTOM_SLIDER",
+                                 "sliderValue" : -2
+                              },
+                              {
+                                 "linkPath" : [
+                                    {
+                                       "index" : -1,
+                                       "name" : "noise2d"
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "fun"
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "links"
+                                    },
+                                    {
+                                       "index" : 7,
+                                       "name" : ""
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "sliderValue"
+                                    }
+                                 ],
+                                 "linkType" : "LT:CUSTOM_SLIDER",
+                                 "sliderValue" : 0.80400002002716064
+                              },
+                              {
+                                 "linkPath" : [
+                                    {
+                                       "index" : -1,
+                                       "name" : "noise2d"
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "fun"
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "links"
+                                    },
+                                    {
+                                       "index" : 5,
+                                       "name" : ""
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "nodeValue"
+                                    }
+                                 ],
+                                 "linkType" : "LT:NOISE_2D",
+                                 "nodeValue" : {
+                                    "@collapsed" : false,
+                                    "@name" : "Offset",
+                                    "@position" : [ 9922, 8531 ],
+                                    "frequency" : [ 1, 1 ],
+                                    "links" : [
+                                       {
+                                          "linkPath" : [
+                                             {
+                                                "index" : -1,
+                                                "name" : "noise2d"
+                                             },
+                                             {
+                                                "index" : -1,
+                                                "name" : "fun"
+                                             },
+                                             {
+                                                "index" : -1,
+                                                "name" : "terms"
+                                             },
+                                             {
+                                                "index" : 0,
+                                                "name" : ""
+                                             },
+                                             {
+                                                "index" : -1,
+                                                "name" : "fun"
+                                             },
+                                             {
+                                                "index" : -1,
+                                                "name" : "fun"
+                                             }
+                                          ],
+                                          "linkType" : "LT:NOISE_2D",
+                                          "nodeValue" : {
+                                             "@collapsed" : false,
+                                             "@name" : "Angled Hills",
+                                             "@position" : [ 10209, 8517 ],
+                                             "frequency" : [ 1, 1 ],
+                                             "links" : [
+                                                {
+                                                   "linkPath" : [
+                                                      {
+                                                         "index" : -1,
+                                                         "name" : "noise2d"
+                                                      },
+                                                      {
+                                                         "index" : -1,
+                                                         "name" : "fun"
+                                                      },
+                                                      {
+                                                         "index" : -1,
+                                                         "name" : "power"
+                                                      }
+                                                   ],
+                                                   "linkType" : "LT:CUSTOM_SLIDER",
+                                                   "sliderValue" : 0.5
+                                                },
+                                                {
+                                                   "linkPath" : [
+                                                      {
+                                                         "index" : -1,
+                                                         "name" : "noise2d"
+                                                      },
+                                                      {
+                                                         "index" : -1,
+                                                         "name" : "fun"
+                                                      },
+                                                      {
+                                                         "index" : -1,
+                                                         "name" : "overflowPower"
+                                                      }
+                                                   ],
+                                                   "linkType" : "LT:CUSTOM_SLIDER",
+                                                   "sliderValue" : 0.41300001740455627
+                                                },
+                                                {
+                                                   "linkPath" : [
+                                                      {
+                                                         "index" : -1,
+                                                         "name" : "noise2d"
+                                                      },
+                                                      {
+                                                         "index" : -1,
+                                                         "name" : "fun"
+                                                      },
+                                                      {
+                                                         "index" : -1,
+                                                         "name" : "fun"
+                                                      },
+                                                      {
+                                                         "index" : -1,
+                                                         "name" : "frequency"
+                                                      },
+                                                      {
+                                                         "index" : -1,
+                                                         "name" : "@xz"
+                                                      }
+                                                   ],
+                                                   "linkType" : "LT:CUSTOM_SLIDER",
+                                                   "sliderValue" : 0.11400000751018524
+                                                }
+                                             ],
+                                             "offset" : [ -159.969482421875, 56.301216125488281 ],
+                                             "offset-hash" : "fxEDb4vzC5w9BfUA",
+                                             "reference" : "noise2d/Heightmaps/AngledHills.json",
+                                             "tick" : 0,
+                                             "type" : "reference"
+                                          }
+                                       },
+                                       {
+                                          "linkPath" : [
+                                             {
+                                                "index" : -1,
+                                                "name" : "noise2d"
+                                             },
+                                             {
+                                                "index" : -1,
+                                                "name" : "fun"
+                                             },
+                                             {
+                                                "index" : -1,
+                                                "name" : "terms"
+                                             },
+                                             {
+                                                "index" : 1,
+                                                "name" : ""
+                                             },
+                                             {
+                                                "index" : -1,
+                                                "name" : "fun"
+                                             },
+                                             {
+                                                "index" : -1,
+                                                "name" : "value"
+                                             }
+                                          ],
+                                          "linkType" : "LT:CUSTOM_SLIDER",
+                                          "sliderValue" : -1
+                                       }
+                                    ],
+                                    "offset" : [ -240.95216369628906, 304.36654663085938 ],
+                                    "offset-hash" : "qmDHdXZ6TjrZCkDf",
+                                    "reference" : "noise2d/Offset.json",
+                                    "tick" : 0,
+                                    "type" : "reference"
+                                 }
+                              },
+                              {
+                                 "linkPath" : [
+                                    {
+                                       "index" : -1,
+                                       "name" : "noise2d"
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "fun"
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "links"
+                                    },
+                                    {
+                                       "index" : 6,
+                                       "name" : ""
+                                    },
+                                    {
+                                       "index" : -1,
+                                       "name" : "nodeValue"
+                                    }
+                                 ],
+                                 "linkType" : "LT:NOISE_2D",
+                                 "nodeValue" : {
+                                    "@collapsed" : false,
+                                    "@name" : "Constant 2D",
+                                    "@position" : [ 9922, 8692 ],
+                                    "frequency" : [ 1, 1 ],
+                                    "offset" : [ -117.30525970458984, -202.51898193359375 ],
+                                    "offset-hash" : "JWN671WrcDckLEX9",
+                                    "type" : "constant",
+                                    "value" : 1
+                                 }
+                              }
+                           ],
+                           "offset" : [ -167.9163818359375, -237.85200500488281 ],
+                           "offset-hash" : "4k14m0ezKlr7PojV",
+                           "reference" : "noise2d/Biome Specific/RiverRoadsRivers.json",
+                           "tick" : 1,
+                           "type" : "reference"
+                        },
+                        "type" : "elevate2d"
+                     },
+                     "y" : 60.863002777099609
+                  }
+               ],
+               "frequency" : [ 1, 1, 1 ],
+               "type" : "layered"
+            },
+            "caves_decorations" : null,
+            "caves_substrate" : null,
+            "distortion" : null,
+            "distortionStrength" : {
+               "enabled" : false,
+               "value" : 0
+            },
+            "drop" : null,
+            "dropMaxDepth" : {
+               "enabled" : false,
+               "value" : 0
+            },
+            "dropMaxGradient" : {
+               "enabled" : false,
+               "value" : 0
+            },
+            "dropMaxNoGravel" : {
+               "enabled" : false,
+               "value" : 0
+            },
+            "heightmap" : {
+               "@collapsed" : false,
+               "@name" : "RiverRoads Rivers",
+               "@position" : [ 9023, 7838 ],
+               "frequency" : [ 1, 1 ],
+               "links" : [
+                  {
+                     "linkPath" : [
+                        {
+                           "index" : -1,
+                           "name" : "noise2d"
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "fun"
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "links"
+                        },
+                        {
+                           "index" : 1,
+                           "name" : ""
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "sliderValue"
+                        }
+                     ],
+                     "linkType" : "LT:CUSTOM_SLIDER",
+                     "sliderValue" : -1.4050000905990601
+                  },
+                  {
+                     "linkPath" : [
+                        {
+                           "index" : -1,
+                           "name" : "noise2d"
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "fun"
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "links"
+                        },
+                        {
+                           "index" : 2,
+                           "name" : ""
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "sliderValue"
+                        }
+                     ],
+                     "linkType" : "LT:CUSTOM_SLIDER",
+                     "sliderValue" : 0.090000003576278687
+                  },
+                  {
+                     "linkPath" : [
+                        {
+                           "index" : -1,
+                           "name" : "noise2d"
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "fun"
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "links"
+                        },
+                        {
+                           "index" : 3,
+                           "name" : ""
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "sliderValue"
+                        }
+                     ],
+                     "linkType" : "LT:CUSTOM_SLIDER",
+                     "sliderValue" : 0
+                  },
+                  {
+                     "linkPath" : [
+                        {
+                           "index" : -1,
+                           "name" : "noise2d"
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "fun"
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "links"
+                        },
+                        {
+                           "index" : 4,
+                           "name" : ""
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "sliderValue"
+                        }
+                     ],
+                     "linkType" : "LT:CUSTOM_SLIDER",
+                     "sliderValue" : -2
+                  },
+                  {
+                     "linkPath" : [
+                        {
+                           "index" : -1,
+                           "name" : "noise2d"
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "fun"
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "links"
+                        },
+                        {
+                           "index" : 7,
+                           "name" : ""
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "sliderValue"
+                        }
+                     ],
+                     "linkType" : "LT:CUSTOM_SLIDER",
+                     "sliderValue" : 1
+                  },
+                  {
+                     "linkPath" : [
+                        {
+                           "index" : -1,
+                           "name" : "noise2d"
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "fun"
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "links"
+                        },
+                        {
+                           "index" : 5,
+                           "name" : ""
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "nodeValue"
+                        }
+                     ],
+                     "linkType" : "LT:NOISE_2D",
+                     "nodeValue" : {
+                        "@collapsed" : false,
+                        "@name" : "Remap 2D",
+                        "@position" : [ 9353, 7682 ],
+                        "clamp" : false,
+                        "clampPower" : 5,
+                        "frequency" : [ 1, 1 ],
+                        "fun" : {
+                           "@collapsed" : false,
+                           "@name" : "Fractal 2D",
+                           "@position" : [ 9656, 7568 ],
+                           "frequency" : [ 1, 1 ],
+                           "fun" : {
+                              "@collapsed" : false,
+                              "@name" : "Perlin 2D",
+                              "@position" : [ 9938, 7714 ],
+                              "frequency" : [ 1, 1 ],
+                              "offset" : [ 110.73777008056641, 109.16149139404297 ],
+                              "offset-hash" : "McwDUjRdQ6nqamWO",
+                              "type" : "perlin"
+                           },
+                           "octaves" : [
+                              {
+                                 "multiplier" : 0.5,
+                                 "offset" : [ -120.47913360595703, 212.2176513671875 ],
+                                 "offset-hash" : "ts1yxrKkMkgvDfbs",
+                                 "scale" : 0.75
+                              },
+                              {
+                                 "multiplier" : 0.30000001192092896,
+                                 "offset" : [ 0.64087891578674316, 112.62938690185547 ],
+                                 "offset-hash" : "vUYs9IiyTV1FIFMa",
+                                 "scale" : 1.5
+                              },
+                              {
+                                 "multiplier" : 0.20000000298023224,
+                                 "offset" : [ 319.053955078125, -62.723800659179688 ],
+                                 "offset-hash" : "j2y9UAqg7SZMMemp",
+                                 "scale" : 3
+                              }
+                           ],
+                           "type" : "fractal"
+                        },
+                        "max" : 2,
+                        "min" : 1,
+                        "type" : "remap"
+                     }
+                  },
+                  {
+                     "linkPath" : [
+                        {
+                           "index" : -1,
+                           "name" : "noise2d"
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "fun"
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "links"
+                        },
+                        {
+                           "index" : 6,
+                           "name" : ""
+                        },
+                        {
+                           "index" : -1,
+                           "name" : "nodeValue"
+                        }
+                     ],
+                     "linkType" : "LT:NOISE_2D",
+                     "nodeValue" : {
+                        "@collapsed" : false,
+                        "@name" : "Fractal 2D",
+                        "@position" : [ 9353, 7966 ],
+                        "frequency" : [ 1, 1 ],
+                        "fun" : {
+                           "@collapsed" : false,
+                           "@name" : "Perlin 2D",
+                           "@position" : [ 9635, 8112 ],
+                           "frequency" : [ 1, 1 ],
+                           "offset" : [ 235.72747802734375, 191.93499755859375 ],
+                           "offset-hash" : "0UhgAGPJucKtsWK6",
+                           "type" : "perlin"
+                        },
+                        "octaves" : [
+                           {
+                              "multiplier" : 0.70000004768371582,
+                              "offset" : [ 67.97589111328125, 132.45962524414063 ],
+                              "offset-hash" : "BnJBzm9dqNwZKlaE",
+                              "scale" : 0.25
+                           },
+                           {
+                              "multiplier" : 0.20000000298023224,
+                              "offset" : [ -246.60411071777344, 228.49484252929688 ],
+                              "offset-hash" : "Xbni7c2LLS0rqNsu",
+                              "scale" : 0.5
+                           },
+                           {
+                              "multiplier" : 0.10000000149011612,
+                              "offset" : [ 7.3426413536071777, -152.39749145507813 ],
+                              "offset-hash" : "Key5VTR3uDKKfUNc",
+                              "scale" : 1.5
+                           }
+                        ],
+                        "type" : "fractal"
+                     }
+                  }
+               ],
+               "offset" : [ -167.9163818359375, -237.85200500488281 ],
+               "offset-hash" : "4k14m0ezKlr7PojV",
+               "reference" : "noise2d/Biome Specific/RiverRoadsRivers.json",
+               "tick" : 1,
+               "type" : "reference"
+            },
+            "heightmapMaxY" : {
+               "enabled" : true,
+               "value" : 64
+            },
+            "heightmapMinY" : {
+               "enabled" : true,
+               "value" : 55
+            },
+            "parts" : [],
+            "shrink" : null,
+            "strata" : null,
+            "surface_decorations" : null,
+            "surface_substrate" : null,
+            "threeD" : null,
+            "threeDMaxY" : {
+               "enabled" : false,
+               "value" : 256
+            },
+            "threeDMinY" : {
+               "enabled" : false,
+               "value" : 0
+            },
+            "threeDSurfaceMaxY" : {
+               "enabled" : false,
+               "value" : 256
+            },
+            "threeDSurfaceMinY" : {
+               "enabled" : false,
+               "value" : 0
+            },
+            "threeDThresholdBias" : {
+               "enabled" : false,
+               "value" : -1
+            },
+            "threed_decorations" : null,
+            "threed_substrate" : null,
+            "x" : null,
+            "y" : null
+         },
+         "temperature" : {
+            "enabled" : true,
+            "value" : 0.5
+         },
+         "vegetation" : {
+            "enabled" : true,
+            "value" : 0.5
+         },
+         "weight" : 0.5
+      },
+      "links" : []
+   },
+   "generator" : {
+      "@version" : 6,
+      "biomeSize" : 24,
+      "lowerSea" : {
+         "level" : 16,
+         "liquidType" : "WATER"
+      },
+      "sea" : {
+         "level" : 64,
+         "liquidType" : "WATER"
+      }
+   },
+   "seed" : "I has a seed!",
+   "sharedConfig" : {
+      "blockColors" : {
+         "ASH_DEFAULT_BASE" : 1,
+         "CRYSTAL_GLEAM_BASE" : 13,
+         "FLORA_FLOWER_1" : 1,
+         "FLORA_FLOWER_2" : 1,
+         "FLORA_FLOWER_3" : 1,
+         "FLORA_FLOWER_4" : 1,
+         "FLORA_PLANT_FIBROUS" : 1,
+         "FLORA_PLANT_INKY" : 1,
+         "GRASS_BARBED_BASE" : 8,
+         "GRASS_GNARLED_BASE" : 7,
+         "GRASS_VERDANT_BASE" : 9,
+         "GRAVEL_DEFAULT_BASE" : 16,
+         "GROWTH_DEFAULT_BASE" : 1,
+         "MOULD_DEFAULT_BASE" : 1,
+         "MUD_DEFAULT_BASE" : 1,
+         "ROCK_IGNEOUS_BASE" : 4,
+         "ROCK_METAMORPHIC_BASE" : 5,
+         "ROCK_SEDIMENTARY_BASE" : 6,
+         "SAND_DEFAULT_BASE" : 16,
+         "SOIL_CLAY_BASE" : 1,
+         "SOIL_PEATY_BASE" : 3,
+         "SOIL_SILTY_BASE" : 2,
+         "SPONGE_DEFAULT_BASE" : 1,
+         "TANGLE_DEFAULT_BASE" : 1,
+         "THORNS_DEFAULT_BASE" : 1,
+         "WOOD_ANCIENT_TRUNK" : 10,
+         "WOOD_EXOTIC_LEAVES" : 15,
+         "WOOD_LUSH_LEAVES" : 13,
+         "WOOD_LUSTROUS_TRUNK" : 1,
+         "WOOD_TWISTED_TRUNK" : 11,
+         "WOOD_WAXY_LEAVES" : 14
+      },
+      "worldSize" : 288
+   },
+   "test" : {
+      "@collapsed" : false,
+      "@name" : "Reference Biome",
+      "@position" : [ 8299, 8836 ],
+      "embedded" : {
+         "@collapsed" : false,
+         "@configType" : "BIOME",
+         "@name" : "RiverRoads",
+         "@position" : [ 7932, 8160 ],
+         "@toggle-test" : false,
+         "@toggle-world" : false,
+         "@version" : 11,
+         "biome" : {
+            "fun" : {
+               "@collapsed" : false,
+               "@name" : "RiverRoads",
+               "@position" : [ 8299, 8089 ],
+               "altitude" : {
+                  "enabled" : true,
+                  "value" : 0.5
+               },
+               "humidity" : {
+                  "enabled" : true,
+                  "value" : 0.5
+               },
+               "nameStyle" : "Catena {}",
+               "part" : {
+                  "@collapsed" : false,
+                  "@name" : "Unnamed Biome Part",
+                  "@position" : [ 8662, 7551 ],
+                  "@selector-open" : false,
+                  "@toggle-caves" : true,
+                  "@toggle-ccaves" : true,
+                  "@toggle-csurface" : true,
+                  "@toggle-cthreed" : true,
+                  "@toggle-data" : true,
+                  "@toggle-drop" : true,
+                  "@toggle-heightmap" : true,
+                  "@toggle-selector" : true,
+                  "@toggle-stage" : true,
+                  "@toggle-threed" : true,
+                  "@toggle-visualise" : true,
+                  "@x-name" : "x",
+                  "@y-name" : "y",
+                  "caveSurfaceShrink" : {
+                     "enabled" : true,
+                     "value" : 2
+                  },
+                  "caveThresholdBias" : {
+                     "enabled" : true,
+                     "value" : 0.76999998092651367
+                  },
+                  "caves" : {
+                     "@collapsed" : false,
+                     "@name" : "Layered 3D",
+                     "@position" : [ 9023, 8462 ],
+                     "components" : [
+                        {
+                           "fun" : {
+                              "@collapsed" : false,
+                              "@name" : "Constant 3D",
+                              "@position" : [ 9330, 8364 ],
+                              "frequency" : [ 1, 1, 1 ],
+                              "offset" : [ 219.22331237792969, 215.04583740234375, -163.77137756347656 ],
+                              "offset-hash" : "qHZtBWJnw9A0SqrK",
+                              "type" : "constant",
+                              "value" : 1
+                           },
+                           "y" : 0
+                        },
+                        {
+                           "fun" : {
+                              "@collapsed" : false,
+                              "@name" : "2D to fixed-y 3D",
+                              "@position" : [ 9330, 8607 ],
+                              "frequency" : [ 1, 1, 1 ],
+                              "fun" : {
+                                 "@collapsed" : false,
+                                 "@name" : "RiverRoads Rivers",
+                                 "@position" : [ 9626, 8541 ],
+                                 "frequency" : [ 1, 1 ],
+                                 "links" : [
+                                    {
+                                       "linkPath" : [
+                                          {
+                                             "index" : -1,
+                                             "name" : "noise2d"
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "fun"
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "links"
+                                          },
+                                          {
+                                             "index" : 1,
+                                             "name" : ""
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "sliderValue"
+                                          }
+                                       ],
+                                       "linkType" : "LT:CUSTOM_SLIDER",
+                                       "sliderValue" : -1.6680001020431519
+                                    },
+                                    {
+                                       "linkPath" : [
+                                          {
+                                             "index" : -1,
+                                             "name" : "noise2d"
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "fun"
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "links"
+                                          },
+                                          {
+                                             "index" : 2,
+                                             "name" : ""
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "sliderValue"
+                                          }
+                                       ],
+                                       "linkType" : "LT:CUSTOM_SLIDER",
+                                       "sliderValue" : 0.090000003576278687
+                                    },
+                                    {
+                                       "linkPath" : [
+                                          {
+                                             "index" : -1,
+                                             "name" : "noise2d"
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "fun"
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "links"
+                                          },
+                                          {
+                                             "index" : 3,
+                                             "name" : ""
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "sliderValue"
+                                          }
+                                       ],
+                                       "linkType" : "LT:CUSTOM_SLIDER",
+                                       "sliderValue" : 0
+                                    },
+                                    {
+                                       "linkPath" : [
+                                          {
+                                             "index" : -1,
+                                             "name" : "noise2d"
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "fun"
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "links"
+                                          },
+                                          {
+                                             "index" : 4,
+                                             "name" : ""
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "sliderValue"
+                                          }
+                                       ],
+                                       "linkType" : "LT:CUSTOM_SLIDER",
+                                       "sliderValue" : -2
+                                    },
+                                    {
+                                       "linkPath" : [
+                                          {
+                                             "index" : -1,
+                                             "name" : "noise2d"
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "fun"
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "links"
+                                          },
+                                          {
+                                             "index" : 7,
+                                             "name" : ""
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "sliderValue"
+                                          }
+                                       ],
+                                       "linkType" : "LT:CUSTOM_SLIDER",
+                                       "sliderValue" : 0.80400002002716064
+                                    },
+                                    {
+                                       "linkPath" : [
+                                          {
+                                             "index" : -1,
+                                             "name" : "noise2d"
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "fun"
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "links"
+                                          },
+                                          {
+                                             "index" : 5,
+                                             "name" : ""
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "nodeValue"
+                                          }
+                                       ],
+                                       "linkType" : "LT:NOISE_2D",
+                                       "nodeValue" : {
+                                          "@collapsed" : false,
+                                          "@name" : "Offset",
+                                          "@position" : [ 9922, 8531 ],
+                                          "frequency" : [ 1, 1 ],
+                                          "links" : [
+                                             {
+                                                "linkPath" : [
+                                                   {
+                                                      "index" : -1,
+                                                      "name" : "noise2d"
+                                                   },
+                                                   {
+                                                      "index" : -1,
+                                                      "name" : "fun"
+                                                   },
+                                                   {
+                                                      "index" : -1,
+                                                      "name" : "terms"
+                                                   },
+                                                   {
+                                                      "index" : 0,
+                                                      "name" : ""
+                                                   },
+                                                   {
+                                                      "index" : -1,
+                                                      "name" : "fun"
+                                                   },
+                                                   {
+                                                      "index" : -1,
+                                                      "name" : "fun"
+                                                   }
+                                                ],
+                                                "linkType" : "LT:NOISE_2D",
+                                                "nodeValue" : {
+                                                   "@collapsed" : false,
+                                                   "@name" : "Angled Hills",
+                                                   "@position" : [ 10209, 8517 ],
+                                                   "frequency" : [ 1, 1 ],
+                                                   "links" : [
+                                                      {
+                                                         "linkPath" : [
+                                                            {
+                                                               "index" : -1,
+                                                               "name" : "noise2d"
+                                                            },
+                                                            {
+                                                               "index" : -1,
+                                                               "name" : "fun"
+                                                            },
+                                                            {
+                                                               "index" : -1,
+                                                               "name" : "power"
+                                                            }
+                                                         ],
+                                                         "linkType" : "LT:CUSTOM_SLIDER",
+                                                         "sliderValue" : 0.5
+                                                      },
+                                                      {
+                                                         "linkPath" : [
+                                                            {
+                                                               "index" : -1,
+                                                               "name" : "noise2d"
+                                                            },
+                                                            {
+                                                               "index" : -1,
+                                                               "name" : "fun"
+                                                            },
+                                                            {
+                                                               "index" : -1,
+                                                               "name" : "overflowPower"
+                                                            }
+                                                         ],
+                                                         "linkType" : "LT:CUSTOM_SLIDER",
+                                                         "sliderValue" : 0.41300001740455627
+                                                      },
+                                                      {
+                                                         "linkPath" : [
+                                                            {
+                                                               "index" : -1,
+                                                               "name" : "noise2d"
+                                                            },
+                                                            {
+                                                               "index" : -1,
+                                                               "name" : "fun"
+                                                            },
+                                                            {
+                                                               "index" : -1,
+                                                               "name" : "fun"
+                                                            },
+                                                            {
+                                                               "index" : -1,
+                                                               "name" : "frequency"
+                                                            },
+                                                            {
+                                                               "index" : -1,
+                                                               "name" : "@xz"
+                                                            }
+                                                         ],
+                                                         "linkType" : "LT:CUSTOM_SLIDER",
+                                                         "sliderValue" : 0.11400000751018524
+                                                      }
+                                                   ],
+                                                   "offset" : [ -159.969482421875, 56.301216125488281 ],
+                                                   "offset-hash" : "fxEDb4vzC5w9BfUA",
+                                                   "reference" : "noise2d/Heightmaps/AngledHills.json",
+                                                   "tick" : 0,
+                                                   "type" : "reference"
+                                                }
+                                             },
+                                             {
+                                                "linkPath" : [
+                                                   {
+                                                      "index" : -1,
+                                                      "name" : "noise2d"
+                                                   },
+                                                   {
+                                                      "index" : -1,
+                                                      "name" : "fun"
+                                                   },
+                                                   {
+                                                      "index" : -1,
+                                                      "name" : "terms"
+                                                   },
+                                                   {
+                                                      "index" : 1,
+                                                      "name" : ""
+                                                   },
+                                                   {
+                                                      "index" : -1,
+                                                      "name" : "fun"
+                                                   },
+                                                   {
+                                                      "index" : -1,
+                                                      "name" : "value"
+                                                   }
+                                                ],
+                                                "linkType" : "LT:CUSTOM_SLIDER",
+                                                "sliderValue" : -1
+                                             }
+                                          ],
+                                          "offset" : [ -240.95216369628906, 304.36654663085938 ],
+                                          "offset-hash" : "qmDHdXZ6TjrZCkDf",
+                                          "reference" : "noise2d/Offset.json",
+                                          "tick" : 0,
+                                          "type" : "reference"
+                                       }
+                                    },
+                                    {
+                                       "linkPath" : [
+                                          {
+                                             "index" : -1,
+                                             "name" : "noise2d"
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "fun"
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "links"
+                                          },
+                                          {
+                                             "index" : 6,
+                                             "name" : ""
+                                          },
+                                          {
+                                             "index" : -1,
+                                             "name" : "nodeValue"
+                                          }
+                                       ],
+                                       "linkType" : "LT:NOISE_2D",
+                                       "nodeValue" : {
+                                          "@collapsed" : false,
+                                          "@name" : "Constant 2D",
+                                          "@position" : [ 9922, 8692 ],
+                                          "frequency" : [ 1, 1 ],
+                                          "offset" : [ -117.30525970458984, -202.51898193359375 ],
+                                          "offset-hash" : "JWN671WrcDckLEX9",
+                                          "type" : "constant",
+                                          "value" : 1
+                                       }
+                                    }
+                                 ],
+                                 "offset" : [ -167.9163818359375, -237.85200500488281 ],
+                                 "offset-hash" : "4k14m0ezKlr7PojV",
+                                 "reference" : "noise2d/Biome Specific/RiverRoadsRivers.json",
+                                 "tick" : 1,
+                                 "type" : "reference"
+                              },
+                              "type" : "elevate2d"
+                           },
+                           "y" : 60.863002777099609
+                        }
+                     ],
+                     "frequency" : [ 1, 1, 1 ],
+                     "type" : "layered"
+                  },
+                  "caves_decorations" : null,
+                  "caves_substrate" : null,
+                  "distortion" : null,
+                  "distortionStrength" : {
+                     "enabled" : false,
+                     "value" : 0
+                  },
+                  "drop" : null,
+                  "dropMaxDepth" : {
+                     "enabled" : false,
+                     "value" : 0
+                  },
+                  "dropMaxGradient" : {
+                     "enabled" : false,
+                     "value" : 0
+                  },
+                  "dropMaxNoGravel" : {
+                     "enabled" : false,
+                     "value" : 0
+                  },
+                  "heightmap" : {
+                     "@collapsed" : false,
+                     "@name" : "RiverRoads Rivers",
+                     "@position" : [ 9023, 7838 ],
+                     "frequency" : [ 1, 1 ],
+                     "links" : [
+                        {
+                           "linkPath" : [
+                              {
+                                 "index" : -1,
+                                 "name" : "noise2d"
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "fun"
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "links"
+                              },
+                              {
+                                 "index" : 1,
+                                 "name" : ""
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "sliderValue"
+                              }
+                           ],
+                           "linkType" : "LT:CUSTOM_SLIDER",
+                           "sliderValue" : -1.4050000905990601
+                        },
+                        {
+                           "linkPath" : [
+                              {
+                                 "index" : -1,
+                                 "name" : "noise2d"
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "fun"
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "links"
+                              },
+                              {
+                                 "index" : 2,
+                                 "name" : ""
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "sliderValue"
+                              }
+                           ],
+                           "linkType" : "LT:CUSTOM_SLIDER",
+                           "sliderValue" : 0.090000003576278687
+                        },
+                        {
+                           "linkPath" : [
+                              {
+                                 "index" : -1,
+                                 "name" : "noise2d"
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "fun"
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "links"
+                              },
+                              {
+                                 "index" : 3,
+                                 "name" : ""
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "sliderValue"
+                              }
+                           ],
+                           "linkType" : "LT:CUSTOM_SLIDER",
+                           "sliderValue" : 0
+                        },
+                        {
+                           "linkPath" : [
+                              {
+                                 "index" : -1,
+                                 "name" : "noise2d"
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "fun"
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "links"
+                              },
+                              {
+                                 "index" : 4,
+                                 "name" : ""
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "sliderValue"
+                              }
+                           ],
+                           "linkType" : "LT:CUSTOM_SLIDER",
+                           "sliderValue" : -2
+                        },
+                        {
+                           "linkPath" : [
+                              {
+                                 "index" : -1,
+                                 "name" : "noise2d"
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "fun"
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "links"
+                              },
+                              {
+                                 "index" : 7,
+                                 "name" : ""
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "sliderValue"
+                              }
+                           ],
+                           "linkType" : "LT:CUSTOM_SLIDER",
+                           "sliderValue" : 1
+                        },
+                        {
+                           "linkPath" : [
+                              {
+                                 "index" : -1,
+                                 "name" : "noise2d"
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "fun"
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "links"
+                              },
+                              {
+                                 "index" : 5,
+                                 "name" : ""
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "nodeValue"
+                              }
+                           ],
+                           "linkType" : "LT:NOISE_2D",
+                           "nodeValue" : {
+                              "@collapsed" : false,
+                              "@name" : "Remap 2D",
+                              "@position" : [ 9353, 7682 ],
+                              "clamp" : false,
+                              "clampPower" : 5,
+                              "frequency" : [ 1, 1 ],
+                              "fun" : {
+                                 "@collapsed" : false,
+                                 "@name" : "Fractal 2D",
+                                 "@position" : [ 9656, 7568 ],
+                                 "frequency" : [ 1, 1 ],
+                                 "fun" : {
+                                    "@collapsed" : false,
+                                    "@name" : "Perlin 2D",
+                                    "@position" : [ 9938, 7714 ],
+                                    "frequency" : [ 1, 1 ],
+                                    "offset" : [ 110.73777008056641, 109.16149139404297 ],
+                                    "offset-hash" : "McwDUjRdQ6nqamWO",
+                                    "type" : "perlin"
+                                 },
+                                 "octaves" : [
+                                    {
+                                       "multiplier" : 0.5,
+                                       "offset" : [ -120.47913360595703, 212.2176513671875 ],
+                                       "offset-hash" : "ts1yxrKkMkgvDfbs",
+                                       "scale" : 0.75
+                                    },
+                                    {
+                                       "multiplier" : 0.30000001192092896,
+                                       "offset" : [ 0.64087891578674316, 112.62938690185547 ],
+                                       "offset-hash" : "vUYs9IiyTV1FIFMa",
+                                       "scale" : 1.5
+                                    },
+                                    {
+                                       "multiplier" : 0.20000000298023224,
+                                       "offset" : [ 319.053955078125, -62.723800659179688 ],
+                                       "offset-hash" : "j2y9UAqg7SZMMemp",
+                                       "scale" : 3
+                                    }
+                                 ],
+                                 "type" : "fractal"
+                              },
+                              "max" : 2,
+                              "min" : 1,
+                              "type" : "remap"
+                           }
+                        },
+                        {
+                           "linkPath" : [
+                              {
+                                 "index" : -1,
+                                 "name" : "noise2d"
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "fun"
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "links"
+                              },
+                              {
+                                 "index" : 6,
+                                 "name" : ""
+                              },
+                              {
+                                 "index" : -1,
+                                 "name" : "nodeValue"
+                              }
+                           ],
+                           "linkType" : "LT:NOISE_2D",
+                           "nodeValue" : {
+                              "@collapsed" : false,
+                              "@name" : "Fractal 2D",
+                              "@position" : [ 9353, 7966 ],
+                              "frequency" : [ 1, 1 ],
+                              "fun" : {
+                                 "@collapsed" : false,
+                                 "@name" : "Perlin 2D",
+                                 "@position" : [ 9635, 8112 ],
+                                 "frequency" : [ 1, 1 ],
+                                 "offset" : [ 235.72747802734375, 191.93499755859375 ],
+                                 "offset-hash" : "0UhgAGPJucKtsWK6",
+                                 "type" : "perlin"
+                              },
+                              "octaves" : [
+                                 {
+                                    "multiplier" : 0.70000004768371582,
+                                    "offset" : [ 67.97589111328125, 132.45962524414063 ],
+                                    "offset-hash" : "BnJBzm9dqNwZKlaE",
+                                    "scale" : 0.25
+                                 },
+                                 {
+                                    "multiplier" : 0.20000000298023224,
+                                    "offset" : [ -246.60411071777344, 228.49484252929688 ],
+                                    "offset-hash" : "Xbni7c2LLS0rqNsu",
+                                    "scale" : 0.5
+                                 },
+                                 {
+                                    "multiplier" : 0.10000000149011612,
+                                    "offset" : [ 7.3426413536071777, -152.39749145507813 ],
+                                    "offset-hash" : "Key5VTR3uDKKfUNc",
+                                    "scale" : 1.5
+                                 }
+                              ],
+                              "type" : "fractal"
+                           }
+                        }
+                     ],
+                     "offset" : [ -167.9163818359375, -237.85200500488281 ],
+                     "offset-hash" : "4k14m0ezKlr7PojV",
+                     "reference" : "noise2d/Biome Specific/RiverRoadsRivers.json",
+                     "tick" : 1,
+                     "type" : "reference"
+                  },
+                  "heightmapMaxY" : {
+                     "enabled" : true,
+                     "value" : 64
+                  },
+                  "heightmapMinY" : {
+                     "enabled" : true,
+                     "value" : 55
+                  },
+                  "parts" : [],
+                  "shrink" : null,
+                  "strata" : null,
+                  "surface_decorations" : null,
+                  "surface_substrate" : null,
+                  "threeD" : null,
+                  "threeDMaxY" : {
+                     "enabled" : false,
+                     "value" : 256
+                  },
+                  "threeDMinY" : {
+                     "enabled" : false,
+                     "value" : 0
+                  },
+                  "threeDSurfaceMaxY" : {
+                     "enabled" : false,
+                     "value" : 256
+                  },
+                  "threeDSurfaceMinY" : {
+                     "enabled" : false,
+                     "value" : 0
+                  },
+                  "threeDThresholdBias" : {
+                     "enabled" : false,
+                     "value" : -1
+                  },
+                  "threed_decorations" : null,
+                  "threed_substrate" : null,
+                  "x" : null,
+                  "y" : null
+               },
+               "temperature" : {
+                  "enabled" : true,
+                  "value" : 0.5
+               },
+               "vegetation" : {
+                  "enabled" : true,
+                  "value" : 0.5
+               },
+               "weight" : 0.5
+            },
+            "links" : []
+         },
+         "generator" : {
+            "@version" : 6,
+            "biomeSize" : 24,
+            "lowerSea" : {
+               "level" : 16,
+               "liquidType" : "WATER"
+            },
+            "sea" : {
+               "level" : 64,
+               "liquidType" : "WATER"
+            }
+         },
+         "seed" : "I has a seed!",
+         "sharedConfig" : {
+            "blockColors" : {
+               "ASH_DEFAULT_BASE" : 1,
+               "CRYSTAL_GLEAM_BASE" : 13,
+               "FLORA_FLOWER_1" : 1,
+               "FLORA_FLOWER_2" : 1,
+               "FLORA_FLOWER_3" : 1,
+               "FLORA_FLOWER_4" : 1,
+               "FLORA_PLANT_FIBROUS" : 1,
+               "FLORA_PLANT_INKY" : 1,
+               "GRASS_BARBED_BASE" : 8,
+               "GRASS_GNARLED_BASE" : 7,
+               "GRASS_VERDANT_BASE" : 9,
+               "GRAVEL_DEFAULT_BASE" : 16,
+               "GROWTH_DEFAULT_BASE" : 1,
+               "MOULD_DEFAULT_BASE" : 1,
+               "MUD_DEFAULT_BASE" : 1,
+               "ROCK_IGNEOUS_BASE" : 4,
+               "ROCK_METAMORPHIC_BASE" : 5,
+               "ROCK_SEDIMENTARY_BASE" : 6,
+               "SAND_DEFAULT_BASE" : 16,
+               "SOIL_CLAY_BASE" : 1,
+               "SOIL_PEATY_BASE" : 3,
+               "SOIL_SILTY_BASE" : 2,
+               "SPONGE_DEFAULT_BASE" : 1,
+               "TANGLE_DEFAULT_BASE" : 1,
+               "THORNS_DEFAULT_BASE" : 1,
+               "WOOD_ANCIENT_TRUNK" : 10,
+               "WOOD_EXOTIC_LEAVES" : 15,
+               "WOOD_LUSH_LEAVES" : 13,
+               "WOOD_LUSTROUS_TRUNK" : 1,
+               "WOOD_TWISTED_TRUNK" : 11,
+               "WOOD_WAXY_LEAVES" : 14
+            },
+            "worldSize" : 288
+         },
+         "test" : {
+            "@collapsed" : false,
+            "@name" : "Reference Biome",
+            "@position" : [ 8299, 8836 ],
+            "type" : "reference"
+         }
+      },
+      "links" : [],
+      "reference" : "",
+      "tick" : 0,
+      "type" : "reference"
+   }
+}
