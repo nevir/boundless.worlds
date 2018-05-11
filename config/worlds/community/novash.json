@@ -3,7 +3,7 @@
    "@configType" : "WORLD",
    "@name" : "novash",
    "@position" : [ 7703, 8331 ],
-   "@scroll" : [ 11212.29296875, 7886.75439453125, -0.19999994337558746 ],
+   "@scroll" : [ 9012.2294921875, 8696.6201171875, 0.90000009536743164 ],
    "@unlinked" : [
       {
          "data" : {
@@ -3977,7 +3977,7 @@
                            "rotateable" : true,
                            "type" : "prefab"
                         },
-                        "maxGradient" : 0,
+                        "maxGradient" : 5,
                         "maxSize" : 1,
                         "maxY" : 256,
                         "minGradient" : 0,
@@ -3993,7 +3993,7 @@
                         },
                         "placementType" : "GROWTH_DEFAULT_BASE",
                         "sizeNoise" : null,
-                        "smooth" : false,
+                        "smooth" : true,
                         "threshold" : 1
                      }
                   ],
@@ -5891,7 +5891,7 @@
             "clampPower" : 5,
             "frequency" : 1,
             "fun" : {
-               "@collapsed" : false,
+               "@collapsed" : true,
                "@name" : "Lerp 2D",
                "@position" : [ 9021, 7505 ],
                "base" : {
